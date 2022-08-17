@@ -3,10 +3,11 @@ import { CommonModule } from '@angular/common';
 import { AdminLayoutRoutingModule } from './admin-layout-routing.module';
 import { AdminLayoutComponent } from './admin-layout.component';
 import { SharedModule } from 'src/app/shared/shared.module';
-import { AboutComponent, AppointmmentComponent, ContactUsComponent, DashboardComponent, FavoriteSaloonsListComponent, PrivacyPolicyComponent, SalonsSpecialistComponent, SchedulesComponent,SpecialistViewComponent, TermsConditionComponent } from 'src/app/components/full-layout/full-layout';
+import {  AppointmmentComponent, DashboardComponent, PaymentComponent, SalonsSpecialistComponent, SpecialistViewComponent,  } from 'src/app/components/full-layout/full-layout';
 import { RouterModule } from '@angular/router';
-import { EditSaloonProfileComponent, MoreComponent, RateSalonComponent, SettingsComponent, TransactionListComponent } from 'src/app/components/full-layout/more/more';
+import { AboutComponent, ContactUsComponent, EditSaloonProfileComponent, MoreComponent, FavoriteSaloonsListComponent,PrivacyPolicyComponent, RateSalonComponent, SchedulesComponent, SettingsComponent, TermsConditionComponent, TransactionListComponent, ServiceComponent } from 'src/app/components/full-layout/more/more';
 import { UpcomingAppointmentComponent, UserAppointmentComponent } from 'src/app/components/full-layout/user-side/user';
+
 
 
 
@@ -16,20 +17,25 @@ import { UpcomingAppointmentComponent, UserAppointmentComponent } from 'src/app/
     AppointmmentComponent,
     DashboardComponent,
     SalonsSpecialistComponent,
-    SchedulesComponent,
     MoreComponent,
     SpecialistViewComponent,
     SettingsComponent,
     TransactionListComponent,
-    FavoriteSaloonsListComponent,
+FavoriteSaloonsListComponent,
+    ServiceComponent,
     RateSalonComponent,
     UpcomingAppointmentComponent,
+    UserAppointmentComponent,
+    EditSaloonProfileComponent,
+    SchedulesComponent,
     AboutComponent,
     ContactUsComponent,
     PrivacyPolicyComponent,
+    SchedulesComponent,
     TermsConditionComponent,
-    UserAppointmentComponent,
-    EditSaloonProfileComponent,
+    PaymentComponent
+
+   
 
   ],
   imports: [

@@ -1,11 +1,9 @@
 export * from '../full-layout/dashboard/dashboard.component'
 export * from '../full-layout/appointmment/appointmment.component'
 export * from '../full-layout/salons-specialist/salons-specialist.component'
-export * from '../full-layout/schedules/schedules.component'
 export * from '../full-layout/schdule-appointment/schdule-appointment.component'
 export * from '../full-layout/specialist-view/specialist-view.component'
-export * from '../full-layout/favorite-saloons-list/favorite-saloons-list.component'
-export * from '../full-layout/settings/about/about.component'
-export * from '../full-layout/settings/terms-condition/terms-condition.component'
-export * from '../full-layout/settings/privacy-policy/privacy-policy.component'
-export * from '../full-layout/settings/contact-us/contact-us.component'
+export * from './more/favorite-saloons-list/favorite-saloons-list.component'
+export * from './payment/payment.component'
+
+

@@ -1,9 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MoreComponent } from 'src/app/components/full-layout/more/more.component';
-import { AboutComponent, AppointmmentComponent, ContactUsComponent, DashboardComponent, FavoriteSaloonsListComponent, SalonsSpecialistComponent, SchduleAppointmentComponent, SchedulesComponent, SpecialistViewComponent, TermsConditionComponent } from 'src/app/components/full-layout/full-layout';
+import {  AppointmmentComponent, DashboardComponent,
+   PaymentComponent,
+   SalonsSpecialistComponent, SchduleAppointmentComponent, 
+    SpecialistViewComponent,  } from 'src/app/components/full-layout/full-layout';
 import { AdminLayoutComponent } from './admin-layout.component';
-import { EditSaloonProfileComponent, RateSalonComponent, ReviewRatingComponent, SettingsComponent, TransactionListComponent } from 'src/app/components/full-layout/more/more';
+import { AboutComponent, ContactUsComponent, EditSaloonProfileComponent,FavoriteSaloonsListComponent, PrivacyPolicyComponent, RateSalonComponent, ReviewRatingComponent, SchedulesComponent, ServiceComponent, SettingsComponent, TermsConditionComponent, TransactionListComponent } from 'src/app/components/full-layout/more/more';
 import { UpcomingAppointmentComponent, UserAppointmentComponent } from 'src/app/components/full-layout/user-side/user';
 
 const routes: Routes = [{
@@ -40,6 +43,10 @@ const routes: Routes = [{
       component: SchedulesComponent
     },
     {
+      path: 'payment',
+      component: PaymentComponent
+    },
+    {
       path: 'more',
       component: MoreComponent
     },
@@ -52,27 +59,27 @@ const routes: Routes = [{
       component: TransactionListComponent
     },
     {
-      path: 'favorite-list',
+      path: 'more/favorite-list',
       component: FavoriteSaloonsListComponent
     },
     {
-      path: 'about',
+      path: 'more/about',
       component:AboutComponent 
     },
     {
-      path: 'terms-condition',
+      path: 'more/terms-condition',
       component: TermsConditionComponent
     },
     {
-      path: 'privacy-policy',
-      component: TermsConditionComponent
+      path: 'more/privacy-policy',
+      component: PrivacyPolicyComponent
     },
     {
-      path: 'contact-us',
+      path: 'more/contact-us',
       component: ContactUsComponent
     },
     {
-      path: 'review-rating',
+      path: 'more/review-rating',
       component: ReviewRatingComponent
     },
     {
@@ -91,6 +98,11 @@ const routes: Routes = [{
       path: 'more/edit-profile',
       component: EditSaloonProfileComponent
     },
+    {
+      path: 'more/services',
+      component: ServiceComponent
+    },
+ 
   ]
 }
 ];
