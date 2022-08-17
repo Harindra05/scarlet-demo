@@ -264,9 +264,17 @@
 }
 
 @media screen and (max-width:576px) {
+    
     .our_section {
+        .service-text{
+            
+                display: flex !important;
+                justify-content: left !important;
+                margin-bottom: 1rem;
+        }
         .service_card {
             width: 100%;
+            margin: 0;
             margin-bottom: 1rem;
         }
         .padding_section {
@@ -279,4 +287,5 @@
     .Features_top_padding {
         margin-top: 0 !important;
     }
+  
 }

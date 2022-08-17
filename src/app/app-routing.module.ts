@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { LocationComponent } from './components/modal/location/location.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
   { path: 'home', loadChildren: () => import('./layout/full-layout/full-layout.module').then(m => m.FullLayoutModule)},
   { path: 'auth', loadChildren: () => import('./layout/authorization/authorization.module').then(m => m.AuthorizationModule) },
-
 ];
 
 @NgModule({

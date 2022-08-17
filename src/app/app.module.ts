@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
-
+import { ModalModule } from 'ngb-modal';
 
 @NgModule({
   declarations: [
@@ -16,6 +16,7 @@ import { RouterModule } from '@angular/router';
     AppRoutingModule,
     RouterModule,
     HttpClientModule,
+    ModalModule,
     BrowserAnimationsModule,
   ],
   providers: [],

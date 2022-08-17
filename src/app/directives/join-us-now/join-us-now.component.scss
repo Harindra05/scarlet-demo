@@ -30,3 +30,9 @@
         }
     }
 }
+@media screen and (max-width:576px) {
+    .join_us_section   .join_us_banner {
+        min-height: 600px;
+        max-height: 600px;
+    }
+}

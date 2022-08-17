@@ -131,6 +131,16 @@ $primary-color: #FE594E;
 
 
 @media screen and (max-width:576px) {
+
+    .btn{
+        font-size: small;
+    }
+    .secondry-btn {
+        padding: 0.4rem 1rem;
+    }
+    .primary-btn {
+        padding: 0.4rem 1rem;
+    }
     .card-bottom-dot {
         display: none;
     }
