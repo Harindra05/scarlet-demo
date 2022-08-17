@@ -5,18 +5,20 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
-import { ModalModule } from 'ngb-modal';
+import { LocationComponent } from './components/modal/location/location.component';
+import { AddServiceComponent } from './components/modal/add-service/add-service.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    LocationComponent,
+    AddServiceComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule,
     HttpClientModule,
-    ModalModule,
     BrowserAnimationsModule,
   ],
   providers: [],
