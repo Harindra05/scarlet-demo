@@ -7,7 +7,7 @@ import {  AppointmmentComponent, DashboardComponent,
     SpecialistViewComponent,  } from 'src/app/components/full-layout/full-layout';
 import { AdminLayoutComponent } from './admin-layout.component';
 import { AboutComponent, ContactUsComponent, EditSaloonProfileComponent,FavoriteSaloonsListComponent, PrivacyPolicyComponent, RateSalonComponent, ReviewRatingComponent, SchedulesComponent, ServiceComponent, SettingsComponent, TermsConditionComponent, TransactionListComponent } from 'src/app/components/full-layout/more/more';
-import { UpcomingAppointmentComponent, UserAppointmentComponent } from 'src/app/components/full-layout/user-side/user';
+import { UpcomingAppointmentComponent, UserAppointmentComponent, UserComponent } from 'src/app/components/full-layout/user-side/user';
 
 const routes: Routes = [{
   path: '',
@@ -93,6 +93,10 @@ const routes: Routes = [{
     {
       path: 'user-appointment',
       component: UserAppointmentComponent
+    },
+    {
+      path: 'user',
+      component: UserComponent
     },
     {
       path: 'more/edit-profile',

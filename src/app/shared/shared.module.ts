@@ -14,7 +14,7 @@ import { LoggedInSidebarComponent } from './logged-in-sidebar/logged-in-sidebar.
     FooterComponent,
     SalonsListComponent,
     LoggedInHeaderComponent,
-    LoggedInSidebarComponent
+    LoggedInSidebarComponent,
   ],
   imports: [
     CommonModule,
@@ -27,7 +27,7 @@ import { LoggedInSidebarComponent } from './logged-in-sidebar/logged-in-sidebar.
     FooterComponent,
     SalonsListComponent,
     LoggedInHeaderComponent,
-    LoggedInSidebarComponent
+    LoggedInSidebarComponent,
   ]
 })
 export class SharedModule { }

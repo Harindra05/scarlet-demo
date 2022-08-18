@@ -1,47 +1,47 @@
 <div class="row mb-5">
     <div class="col-sm-12 col-md-9 col-lg-9 col-xl-6 col-xxl-5 mx-auto">
         <div class="card px-5 py-3">
-            <div class="row">
-                <div class="col-sm-12 col-md-8 mx-auto">
+            <div class="row mx-0">
+                <div class="col-sm-12 col-md-8 mx-auto px-0">
                     <h1 class="text-center">Login</h1>
                     <div class="row">
                         <div class="col-sm-12 col-md-6">
                             <div class="custom-radio">
                                 <label class="plan basic-plan" for="basic">
-                            <input checked type="radio" name="plan" id="basic" />
-                            <div class="plan-content">
-                              <img loading="lazy" src="assets/img/customer.png" alt="" />
-                              <div class="plan-details">
-                                <img src="assets/img/customer-logo.png" class="" alt=""/>
-                                <span>Customer</span>
-                              </div>
-                            </div>
-                          </label>
+                                    <input checked type="radio" name="plan" id="basic" />
+                                    <div class="plan-content">
+                                        <img loading="lazy" src="assets/img/customer.png" alt="" />
+                                        <div class="plan-details">
+                                            <img src="assets/img/customer-logo.png" class="" alt="" />
+                                            <span>Customer</span>
+                                        </div>
+                                    </div>
+                                </label>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="custom-radio">
                                 <label class="plan complete-plan" for="complete">
-                            <input type="radio" id="complete" name="plan" />
-                            <div class="plan-content">
-                              <img loading="lazy" src="assets/img/partner.png" alt="" />
-                              <div class="plan-details">
-                                <img src="assets/img/Partner-logo.png" class="" alt="" />
-                                <span>Partner</span>
-                              </div>
-                            </div>
-                          </label>
+                                    <input type="radio" id="complete" name="plan" />
+                                    <div class="plan-content">
+                                        <img loading="lazy" src="assets/img/partner.png" alt="" />
+                                        <div class="plan-details">
+                                            <img src="assets/img/Partner-logo.png" class="" alt="" />
+                                            <span>Partner</span>
+                                        </div>
+                                    </div>
+                                </label>
                             </div>
                         </div>
                     </div>
 
                     <form>
                         <div class="forms-details">
-                            <div class="row">
-                                <div class="col-md-1">
+                            <div class="row mx-0">
+                                <div class="col-1">
                                     <i class="fa fa-user"></i>
                                 </div>
-                                <div class="col-md-11">
+                                <div class="col-10">
                                     <input class="form-control" type="text" placeholder="Enter your name" />
                                 </div>
                             </div>
@@ -49,10 +49,10 @@
 
                         <div class="forms-details">
                             <div class="row">
-                                <div class="col-md-1">
+                                <div class="col-1">
                                     <i class="fa fa-lock"></i>
                                 </div>
-                                <div class="col-md-11">
+                                <div class="col-10">
                                     <input class="form-control" type="password" placeholder="Enter your password" />
                                 </div>
                             </div>
@@ -64,21 +64,34 @@
                         <div class="login_btn">
                             <button class="btn primary-btn w-100" type="submit" routerLink="/home/admin/dashboard">Login</button>
                         </div>
-                        <div class="row social_btn">
+                        <!-- <div class="row social_btn">
                             <div class="col-12 col-md-6 col-lg-6">
-                                <button class="btn primary-btn me-5 ">
+                                <button class="btn primary-btn">
                                     <span class="d-flex align-items-center"><i class="fa fa-facebook" aria-hidden="true"></i> <span class="ms-2"> Facbook</span></span> 
                                 </button>
                             </div>
                             <div class="col-12 col-md-6 col-lg-6">
-                                <button class="btn primary-btn ms-5">
+                                <button class="btn primary-btn">
                                      <span class="d-flex align-items-center"><img src="assets/img/google_icon.png" class="me-2" alt=""/>Google </span>
                                 </button>
+                            </div>
+                        </div> -->
+
+                        <div class="social_btn">
+                            <div class="facebook-btn  d-flex">
+
+                                <button type="button" class="btn btn-outline-primary"><i class="fa fa-facebook" aria-hidden="true"></i> &nbsp; <span>Facebook</span></button>
+                            </div>
+
+                            <div class="google-btn d-flex">
+
+                                <button type="button" class="btn btn-outline-success"> <img src="assets/img/google_icon.png" height="15px" width="15px"/>  &nbsp; <span>Google</span></button>
                             </div>
                         </div>
 
                         <div class="text-center mt-3">
-                            <p class="tag">Already have an account? <a href="#" routerLink="/auth/signup">Create an account</a></p>
+                            <p class="tag">Already have an account? <a href="#" routerLink="/auth/signup">Create an
+                                    account</a></p>
                         </div>
                     </form>
                 </div>

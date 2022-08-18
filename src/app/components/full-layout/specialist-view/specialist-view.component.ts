@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { HaircutAndStylingComponent } from '../../modal/haircut-and-styling/haircut-and-styling.component';
 
 @Component({
   selector: 'app-specialist-view',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SpecialistViewComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private modal: NgbModal){}
   ngOnInit(): void {
   }
+async openHairPopup(){
+  this.modal.open(HaircutAndStylingComponent, { size: 'lg' })
+}
 
 }

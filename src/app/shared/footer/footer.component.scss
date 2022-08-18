@@ -77,8 +77,7 @@ hr{
 }
 @media   (max-width:576px) {
     .share_section{
-        display: block;
-        flex-wrap: nowrap;
+       
     }
     .section   .share_app_section {
         background-color: #ffe3e1;
@@ -107,6 +106,6 @@ hr{
         margin-bottom: 1rem;
     }
     .mrleft {
-        margin-left: 0px;
+        margin-left: 10px;
     }
 }

@@ -6,7 +6,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
 import {  AppointmmentComponent, DashboardComponent, PaymentComponent, SalonsSpecialistComponent, SpecialistViewComponent,  } from 'src/app/components/full-layout/full-layout';
 import { RouterModule } from '@angular/router';
 import { AboutComponent, ContactUsComponent, EditSaloonProfileComponent, MoreComponent, FavoriteSaloonsListComponent,PrivacyPolicyComponent, RateSalonComponent, SchedulesComponent, SettingsComponent, TermsConditionComponent, TransactionListComponent, ServiceComponent } from 'src/app/components/full-layout/more/more';
-import { UpcomingAppointmentComponent, UserAppointmentComponent } from 'src/app/components/full-layout/user-side/user';
+import { UpcomingAppointmentComponent, UserAppointmentComponent, UserComponent } from 'src/app/components/full-layout/user-side/user';
 
 
 
@@ -33,7 +33,8 @@ FavoriteSaloonsListComponent,
     PrivacyPolicyComponent,
     SchedulesComponent,
     TermsConditionComponent,
-    PaymentComponent
+    PaymentComponent,
+    UserComponent
 
    
 

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-payment-sucessful',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PaymentSucessfulComponent implements OnInit {
 
-  constructor() { }
+  constructor(public activeModal :NgbActiveModal) { }
 
   ngOnInit(): void {
   }
