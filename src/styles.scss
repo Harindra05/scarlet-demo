@@ -133,6 +133,41 @@ $primary-color: #FE594E;
     border-radius: 10px;
 }
 
+// tringle css
+.nav-item {
+    position: relative;
+}
+
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    left: 42%;
+    top: 100%;
+    width: 0;
+    height: 0;
+    transform: translate(-50%, -50%);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #fff;
+    clear: both;
+}
+
+.nav-tabs .nav-link {
+    color: #000;
+}
+
+.nav-tabs .nav-link.active {
+    border: none !important;
+    color: #fb634f;
+}
+
+.nav-tabs .nav-link.active:hover {
+    border: none !important;
+}
+
+ngb-modal-window.d-block.fade.modal.show {
+    top: 20% !important;
+}
 
 @media screen and (max-width:576px) {
     .btn {

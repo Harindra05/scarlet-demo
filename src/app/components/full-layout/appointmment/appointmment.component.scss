@@ -32,17 +32,9 @@ ul#myTab {
     padding: 0 1rem;
   }
 
-  .nav-link::after {
-    border: 1px solid red;
-  }
 
-  .nav-link .active {
-    width: 15px;
-    height: 15px;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 50px solid green;
-  }
+
+ 
 }
 
 div#myTabContent {
@@ -184,7 +176,7 @@ div#myTabContent {
     .secondry-btn {
         color: #FE594E;
     //   max-width: 85%;
-    //   padding: 0.4rem 2.5rem;
+      padding: 0.4rem 2.6rem;
       background: var(--unnamed-color-fe594e) 0% 0% no-repeat padding-box;
         border: 1px solid var(--unnamed-color-fe594e);
         background: #fe594e2e 0% 0% no-repeat padding-box;

@@ -15,7 +15,6 @@ import { ScheduleAppointmentSuccessfulComponent } from './components/modal/sched
 import { ScheduleAppointmentComponent } from './components/modal/schedule-appointment/schedule-appointment.component';
 import { SelectDateComponent } from './components/modal/select-date/select-date.component';
 import { SelectSpecialistsComponent } from './components/modal/select-specialists/select-specialists.component';
-import { UserComponent } from './components/full-layout/user-side/user/user.component';
 
 @NgModule({
   declarations: [

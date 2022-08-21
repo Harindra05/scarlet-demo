@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MoreComponent } from 'src/app/components/full-layout/more/more.component';
-import {  AppointmmentComponent, DashboardComponent,
+import {  AppointmmentComponent, ChatPanelComponent, DashboardComponent,
    PaymentComponent,
    SalonsSpecialistComponent, SchduleAppointmentComponent, 
     SpecialistViewComponent,  } from 'src/app/components/full-layout/full-layout';
@@ -105,6 +105,10 @@ const routes: Routes = [{
     {
       path: 'more/services',
       component: ServiceComponent
+    },
+    {
+      path: 'chat',
+      component: ChatPanelComponent
     },
  
   ]
